@@ -65,7 +65,7 @@ export default function Home() {
                     />
                     )}
                     <span className="absolute left-5 top-5 rounded bg-black/50 px-2 py-1 text-xs font-bold">
-                   HD
+                   4K
                    </span>
                    </div>
               
