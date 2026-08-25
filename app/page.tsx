@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
       <nav className="flex items-center justify-between border-b border-white/10 px-6 py-5 md:px-12">
-        <h1 className="text-2xl font-bold text-red-500">CM Movies</h1>
+        <h1 className="text-2xl font-bold text-red-500">MK Movies</h1>
         <div className="hidden gap-7 text-sm text-zinc-300 md:flex">
           <a href="#home">Home</a>
           <a href="#movies">Movies</a>
@@ -83,7 +83,7 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-zinc-500">
-        © 2026 CM Movies — Movie Website
+        © 2026 MK Movies — Movie Website
       </footer>
     </main>
   );
