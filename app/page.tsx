@@ -1,6 +1,6 @@
 const movies = [
-  { title: "Midnight", genre: "Action", year: "2025", color: "from-red-700 to-orange-500" },
-  { title: "The Last Signal", genre: "Sci-Fi", year: "2024", color: "from-cyan-700 to-blue-500" },
+  { title: "Spider-Man: Brand New Day", genre: "Action/Adventure", year: "2026", color: "from-red-700 to-orange-500" },
+  { title: "The Odyssey", genre: "Action/Fantasy", year: "2026", color: "from-cyan-700 to-blue-500" },
   { title: "Silent City", genre: "Thriller", year: "2025", color: "from-violet-800 to-fuchsia-600" },
   { title: "Beyond the Sea", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500" },
   { title: "Kgf", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500", link: "https://youtu.be/-KfsY-qwBS0?si=XUHVb1u69qox4FLF", poster: "/images/images (4).jpg" },
