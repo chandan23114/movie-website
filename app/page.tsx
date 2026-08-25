@@ -75,7 +75,7 @@ export default function Home() {
                 <p className="mt-1 text-sm text-zinc-400">
                   {movie.genre} · {movie.year}
                 </p>
-                <p className="mt-3 text-sm text-yellow-400">★ 8.7 / 10</p>
+                <p className="mt-3 text-sm text-yellow-400">★ 8.0 / 10</p>
               </div>
             </a>
           ))}
