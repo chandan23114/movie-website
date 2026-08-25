@@ -1,9 +1,9 @@
 const movies = [
   { title: "Spider-Man: Brand New Day", genre: "Action", year: "2026", color: "from-red-700 to-orange-500" },
   { title: "The Odyssey", genre: "Action", year: "2026", color: "from-cyan-700 to-blue-500" },
-  { title: "Silent City", genre: "Thriller", year: "2025", color: "from-violet-800 to-fuchsia-600" },
-  { title: "Beyond the Sea", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500" },
-  { title: "Kg", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500", link: "https://youtu.be/-KfsY-qwBS0?si=XUHVb1u69qox4FLF", poster: "/images/images (4).jpg" },
+  { title: "Avengers: Doomsday", genre: "Thriller", year: "2026", color: "from-violet-800 to-fuchsia-600" },
+  { title: "Moana", genre: "Adventure", year: "2026", color: "from-emerald-700 to-teal-500" },
+  { title: "KGF", genre: "Action", year: "2018", color: "from-emerald-700 to-teal-500", link: "https://youtu.be/oC-v6_k4vzg?si=P5in_I5BGjpTqSkb", poster: "/images/images (4).jpg" },
 ];
 export default function Home() {
   return (
