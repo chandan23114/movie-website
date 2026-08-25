@@ -1,10 +1,11 @@
 const movies = [
-  { title: "Midnight Run", genre: "Action", year: "2025", color: "from-red-700 to-orange-500" },
+  { title: "Midnight", genre: "Action", year: "2025", color: "from-red-700 to-orange-500" },
   { title: "The Last Signal", genre: "Sci-Fi", year: "2024", color: "from-cyan-700 to-blue-500" },
   { title: "Silent City", genre: "Thriller", year: "2025", color: "from-violet-800 to-fuchsia-600" },
   { title: "Beyond the Sea", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500" },
-];
+  { title: "Kgf", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500" },
 
+];
 export default function Home() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
@@ -13,7 +14,7 @@ export default function Home() {
         <div className="hidden gap-7 text-sm text-zinc-300 md:flex">
           <a href="#home">Home</a>
           <a href="#movies">Movies</a>
-          <a href="#genres">Genres</a>s
+          <a href="#genres">Genres</a>
         </div>
         <button className="rounded-full bg-red-600 px-4 py-2 text-sm font-semibold hover:bg-red-500">
           Sign In
