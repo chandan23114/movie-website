@@ -3,7 +3,7 @@ const movies = [
   { title: "The Last Signal", genre: "Sci-Fi", year: "2024", color: "from-cyan-700 to-blue-500" },
   { title: "Silent City", genre: "Thriller", year: "2025", color: "from-violet-800 to-fuchsia-600" },
   { title: "Beyond the Sea", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500" },
-  { title: "Kgf", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500", link: "https://youtu.be/-KfsY-qwBS0?si=XUHVb1u69qox4FLF" },
+  { title: "Kgf", genre: "Drama", year: "2024", color: "from-emerald-700 to-teal-500", link: "https://youtu.be/-KfsY-qwBS0?si=XUHVb1u69qox4FLF", poster: "/images/images (4).jpg" },
 ];
 export default function Home() {
   return (
@@ -56,9 +56,20 @@ export default function Home() {
               rel="noreferrer"
               className="block overflow-hidden rounded-xl border border-white/10 bg-zinc-900 transition hover:-translate-y-1 hover:border-red-500/60"
 >
-              <div className={`h-56 bg-linear-to-br ${movie.color} p-5`}>
-                <span className="rounded bg-black/30 px-2 py-1 text-xs font-bold">HD</span>
-              </div>
+              <div className={`relative h-56 overflow-hidden bg-linear-to-br ${movie.color}`}>
+                 {movie.poster && (
+                 <img
+                  src={movie.poster}
+                   alt={`${movie.title} poster`}
+                    className="h-full w-full object-cover"
+                    />
+                    )}
+                    <span className="absolute left-5 top-5 rounded bg-black/50 px-2 py-1 text-xs font-bold">
+                   HD
+                   </span>
+                   </div>
+              
+              
               <div className="p-4">
                 <h3 className="font-bold">{movie.title}</h3>
                 <p className="mt-1 text-sm text-zinc-400">
